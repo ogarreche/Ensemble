@@ -18,8 +18,30 @@ two-level learning for most setups considered in this work. We also release our 
 Figure 1 - A high-level overview of our Ensemble Learning framework for network intrusion detection. It considers a diverse set of AI models and network intrusion datasets.
 ![image](https://github.com/ogarreche/Ensemble_Learning_2_Levels_IDS/blob/main/images/framework.png?raw=true)
 
+Figure 1 shows two major areas (i.e., Level 00 and Level
+01) divided by a horizontal line, indicated by the blocks on
+the left-handed side in a vertical position. The diagram is
+read from bottom to top, analogous to a pyramid that starts
+by building a strong foundation and then grows vertically
+with stacking, and its vertical layout is due to the ensemble
+learning methods applied in this work.
+
 Figure 2 - A low-level overview of our Ensemble Learning framework for network intrusion detection. It considers a diverse set of AI models and network intrusion datasets.
 ![image](https://github.com/ogarreche/Ensemble_Learning_2_Levels_IDS/blob/main/images/low_level_framework.png?raw=true)
+
+We now explain the Low-Level Ensemble Learning Pipeline
+Components (shown in Figure 2). The reader may follow the
+arrows in the block diagram to facilitate its readability. Each
+arrow type has a color code: black refers to processes in Level
+00, orange relates to processes in Level 01, and the green
+arrow marks the transition from Level 00 to Level 01. Each
+block group has sub-groups that indicate that they are a set or
+included in the context of the outer block. Also, note that some
+blocks have different colors for easy identification (e.g., the
+base models are gray). These blocks seen before may appear
+in another context (i.e., inside other blocks). For example,
+note that base models (gray) appear as a small gray block
+inside stacking.
 
 ### Main Results:
 
