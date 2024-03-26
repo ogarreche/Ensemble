@@ -23,8 +23,8 @@ NSL-KDD: https://www.unb.ca/cic/datasets/nsl.html
 
 Inside the CICIDS or SIMARGL or NSLKDD folder you will find programs for each model used in this paper. Each one of these programs outputs:
 
-  - The accuracy for the AI model.
-  - The values for y_axis for the sparsity (that will need to be copied and pasted into the general_sparsity_graph.py).
-  - Top features in importance order (that will be needed to rerun these same programs to obtain new Accuracy values for Descriptive Accuracy. Take note of the values as you use less features and input these values in  general_desc_acc_graph.py ).
-  - For Stability, run the programs 3x or more and input the obtained top k features in general_stability_comparison.py).
+  - Level 00 and Level 01 programs outputs: The Accuracy, Recall, Precision, F1 and time efficiency for every AI model. (Run Level 00 before Level01)
+  - The FPR values are generated "manually". After running LV00 or LV01 program, a text file with the results with a confusion matrix will be generated for each model. Copy and paste each decision matrix in the FPR.ipynb program to generate the FPR results.
+  - Run the wilcoxon programs to generate the statistics restults (These programs can be run independtly of Level00 and Level01).  
+ 
     
