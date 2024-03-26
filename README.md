@@ -13,16 +13,56 @@ datasets with different characteristics (RoEduNet-SIMARGL2021, NSL-KDD, and CICI
 Our evaluation shows that it is beneficial to perform
 two-level learning for most setups considered in this work. We also release our source codes for the community to access as a baseline two-level ensemble learning framework for network intrusion detection.
 
+### Framework:
+
 Figure 1 - A high-level overview of our Ensemble Learning framework for network intrusion detection. It considers a diverse set of AI models and network intrusion datasets.
 ![image](https://github.com/ogarreche/Ensemble_Learning_2_Levels_IDS/blob/main/images/framework.png?raw=true)
 
 Figure 2 - A low-level overview of our Ensemble Learning framework for network intrusion detection. It considers a diverse set of AI models and network intrusion datasets.
 ![image](https://github.com/ogarreche/Ensemble_Learning_2_Levels_IDS/blob/main/images/low_level_framework.png?raw=true)
 
+### Main Results:
+
 Figure 3 - The summary of all results in this work. Our framework provides higher performance metrics and lower FPR.
 ![image](https://github.com/ogarreche/Ensemble_Learning_2_Levels_IDS/blob/main/images/Summary.png?raw=true)
 
-
+Our two-level framework offers flexibility in the way it
+is built. Differently from previous works, it goes beyond
+applying ensemble learning techniques directly to the
+datasets, it uses the predictions obtained to generate four new
+meta-datasets based on classes and prediction probabilities
+which is applied to all the models used in Level 00
+and ensemble learning techniques. This setup provides an
+extensive evaluation of the three datasets used, among
+them the RoEduNet-SIMARGL2021 which is considered
+real-world and not yet evaluated in this context from the
+literature gathered to the best of our knowledge. Moreover,
+it permits the use of feature selection techniques at both
+levels, enriching the pool of results and insights gathered.
+Moreover, this work presents an extensive evaluation that is
+not present in other works, we analyze 21 models/ensemble
+methods in 6 different setups (two Level 00 setups and four
+Level 01 setups) in three different datasets, generating results
+for Accuracy, Precision, Recall, F1, Runtime, False Positive
+Rates, and a Statistical Significance test. Plus, we achieve
+perfect and near-perfect results for a few models considering
+the FPR and the F1 score, both metrics are particularly crucial
+for IDS. This is because security analysts, stakeholders and users need to do everything in their power to identify
+a possible threat accurately and as fastest as possible as
+undetected attacks can cause significant damage.
+We also want to stress that we took the extra step and we
+made the codes open source. The way they are built is to
+be easily expandable to use with other datasets and further
+analysis. As a side note, we want to express that when we say
+Framework, we are specifically meaning that our program is
+an end-to-end solution delineated by our low-level framework
+(Figure 2) that starts at the datasets, then processing all the
+inner work and extracting the results. It is not a deployable
+solution for production since it is not extensively tested or
+validated by an auditory company, but instead, a proof of
+concept of the benefits of using our proposed framework and
+a crucial stepping-stone in enhancing the field of AI-based
+network IDS.
 
 ### Datasets:
 
