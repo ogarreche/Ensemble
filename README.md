@@ -13,13 +13,13 @@ datasets with different characteristics (RoEduNet-SIMARGL2021, NSL-KDD, and CICI
 Our evaluation shows that it is beneficial to perform
 two-level learning for most setups considered in this work. We also release our source codes for the community to access as a baseline two-level ensemble learning framework for network intrusion detection.
 
-Figure 1 - High Level Framework
+Figure 1 - A high-level overview of our Ensemble Learning framework for network intrusion detection. It considers a diverse set of AI models and network intrusion datasets.
 ![image](https://github.com/ogarreche/Ensemble_Learning_2_Levels_IDS/blob/main/images/framework.png?raw=true)
 
-Figure 2 - Low Level Framework
+Figure 2 - A low-level overview of our Ensemble Learning framework for network intrusion detection. It considers a diverse set of AI models and network intrusion datasets.
 ![image](https://github.com/ogarreche/Ensemble_Learning_2_Levels_IDS/blob/main/images/low_level_framework.png?raw=true)
 
-Figure 3 - Summary of main results.
+Figure 3 - The summary of all results in this work. Our framework provides higher performance metrics and lower FPR.
 ![image](https://github.com/ogarreche/Ensemble_Learning_2_Levels_IDS/blob/main/images/Summary.png?raw=true)
 
 
