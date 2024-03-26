@@ -19,7 +19,7 @@ Figure 1 - A high-level overview of our Ensemble Learning framework for network 
 ![image](https://github.com/ogarreche/Ensemble_Learning_2_Levels_IDS/blob/main/images/framework.png?raw=true)
 
 Figure 1 shows two major areas (i.e., Level 00 and Level
-01) divided by a horizontal line, indicated by the blocks on
+01 ) divided by a horizontal line, indicated by the blocks on
 the left-handed side in a vertical position. The diagram is
 read from bottom to top, analogous to a pyramid that starts
 by building a strong foundation and then grows vertically
