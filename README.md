@@ -105,5 +105,8 @@ Inside the CICIDS or SIMARGL or NSLKDD folder you will find programs for each mo
   - Run the wilcoxon programs to generate the statistics restults (These programs can be run independtly of Level00 and Level01).  
  
     
-### Status:
-  - Paper under IEEE Access Revision.
+### Citation:
+
+Please cite our paper if it was useful to you :) 
+
+https://ieeexplore.ieee.org/abstract/document/10540382
