@@ -86,6 +86,9 @@ concept of the benefits of using our proposed framework and
 a crucial stepping-stone in enhancing the field of AI-based
 network IDS.
 
+### Environment
+I uploaded HITL.yml if you want to used the same environemt as we used. Note: for importing environment see the Importing Environments section https://conda.io/projects/conda/en/latest/user-guide/cheatsheet.html
+
 ### Datasets:
 
 Download one of the datasets. 
