@@ -107,7 +107,8 @@ Inside the CICIDS or SIMARGL or NSLKDD folder you will find programs for each mo
   - The FPR values are generated "manually". After running LV00 or LV01 program, a text file with the results with a confusion matrix will be generated for each model. Copy and paste each decision matrix in the FPR.ipynb program to generate the FPR results.
   - Run the wilcoxon programs to generate the statistics restults (These programs can be run independtly of Level00 and Level01).  
  
-    
+### Example: Inside the NSLKDD folder, see NLSKDD_level_00_example.ipynb and NLSKDD_level_01_example.ipynb. These are example programs with reduced dataset and comments. 
+
 ### Citation:
 
 Please cite our paper if it was useful to you :) 
