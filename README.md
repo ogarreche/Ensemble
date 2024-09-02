@@ -106,6 +106,8 @@ Inside the CICIDS or SIMARGL or NSLKDD folder you will find programs for each mo
   - Level 00 and Level 01 programs outputs: The Accuracy, Recall, Precision, F1 and time efficiency for every AI model. (Run Level 00 before Level01)
   - The FPR values are generated "manually". After running LV00 or LV01 program, a text file with the results with a confusion matrix will be generated for each model. Copy and paste each decision matrix in the FPR.ipynb program to generate the FPR results.
   - Run the wilcoxon programs to generate the statistics restults (These programs can be run independtly of Level00 and Level01).  
+
+  - Note: the programs were tested on Linux. See the "issues" to see more information when running it on windows.
  
 ### Example:
 
