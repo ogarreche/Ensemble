@@ -118,3 +118,8 @@ Inside the NSLKDD folder, see NLSKDD_level_00_example.ipynb and NLSKDD_level_01_
 Please cite our paper if it was useful to you :) 
 
 https://ieeexplore.ieee.org/abstract/document/10540382
+
+
+
+Note: The programs were tested on linux. If using windows, you might run in the error: "UnicodeDecodeError: 'utf-8' codec can't decode byte 0x96 in position 22398: invalid start byte
+", please refer to: https://github.com/ogarreche/Ensemble_Learning_2_Levels_IDS/issues/1 
